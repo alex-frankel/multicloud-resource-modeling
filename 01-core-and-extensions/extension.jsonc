@@ -1,0 +1,19 @@
+// microsoft.cloudconnector/hybridconnectivity/coreinventory/ec2
+
+{
+    "name": "???", // ???
+    "properties": {
+        "bootModeValues/operatingSystemType": "???",
+        "publicIpAddress": "..."
+        // ...
+    }
+}
+
+// microsoft.cloudconnector/hybridconnectivity/coreinventory/ec2/securityRules
+
+{
+
+}
+
+where operatingSystemType == 'windows'
+where operatingSystemType == 'windows' or bootModeValues == 'windows'
