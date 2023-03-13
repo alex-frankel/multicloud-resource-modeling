@@ -1,0 +1,20 @@
+// microsoft.cloudconnector/hybridconnectivity/ec2
+
+{
+    "name": "<account-id>::myec2-vm", // is this specific enough?
+    "...": "", // are any other top level properties like "sku", "kind", etc?
+    "tags": {
+        // are these tags from the asset or separate tags?
+    },
+    "properties": {
+        "platform": "AWS",
+        "tags": {
+            // are these necessary if we put the tags in the top level tags?
+        },
+        "owner": "",
+        "status": "", // is this generic for all assets? i.e. does KeyVault have status?
+        "bootModeValues/operatingSystemType": "???",
+        "publicIpAddress": "..."
+        // ...
+    }
+}
